@@ -53,7 +53,7 @@ OBS: CÓDIGO .env ENVIADO NO COMENTÁRIO DA ENTREGA!!
 
 npm run dev
 
-O servidor rodará em: http://localhost:3000
+O servidor rodará em: http://localhost:3000 e exibirá a mensagem: Servidor rodando na porta 3000 🟢 MongoDB Conectado com Sucesso!
 
 # 2️⃣ Configurando o Frontend (Interface)
 
