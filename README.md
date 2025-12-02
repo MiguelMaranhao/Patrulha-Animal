@@ -69,11 +69,13 @@ npm install
 
 OBS: Código .env.local ENVIADO NO COMENTÁRIO DA ENTREGA!!
 
-## Conexão Local: Certifique-se de que o arquivo src/App.jsx (ou config) está apontando para o servidor local:
+## Conexão Local (Não é Obrigatório!!): Certifique-se de que o arquivo src/config.js (ou config) está apontando para o servidor local:
 
+Basta apenas comentar a linha const API_BASE_URL com o render; e descomentar a linha const API_BASE_URL com o localhost.
 
-// const API_URL = '[https://patrulha-animal-backend.onrender.com](https://patrulha-animal-backend.onrender.com)'; // Nuvem
-const API_URL = '[http://127.0.0.1:3000](http://127.0.0.1:3000)'; // Local
+Conforme exemplo:
+// export const API_BASE_URL = 'https://patrulha-animal-backend.onrender.com';
+// export const API_BASE_URL = 'http://127.0.0.1:3000'; 
 
 ## Inicie o aplicativo:
 
