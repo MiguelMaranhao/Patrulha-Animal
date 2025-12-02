@@ -74,7 +74,9 @@ OBS: Código .env.local ENVIADO NO COMENTÁRIO DA ENTREGA!!
 Basta apenas comentar a linha const API_BASE_URL com o render; e descomentar a linha const API_BASE_URL com o localhost.
 
 Conforme exemplo:
+
 // export const API_BASE_URL = 'https://patrulha-animal-backend.onrender.com';
+
 // export const API_BASE_URL = 'http://127.0.0.1:3000'; 
 
 ## Inicie o aplicativo:
