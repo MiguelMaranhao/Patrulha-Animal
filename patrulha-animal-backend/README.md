@@ -46,6 +46,7 @@ Body (JSON):
   "email": "professora.sheila@teste.com",
   "password": "123456"
 }
+
 Nota: Copie o código do campo token na resposta para usar nas rotas abaixo.
 
 ### 2. Gestão de Pets
