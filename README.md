@@ -35,7 +35,7 @@ Para executar o sistema completo, você precisará de **dois terminais** abertos
 
 ---
 
-# Faça o git clone do repositório!: git clone 
+# Faça o git clone do repositório!: git clone https://github.com/MiguelMaranhao/Patrulha-Animal.git
 
 ### 1️⃣ Configurando o Backend (Servidor)
 
