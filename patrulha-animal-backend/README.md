@@ -24,7 +24,7 @@ Cria uma nova conta no sistema.
 - **Método:** `POST`
 - **Endpoint:** `/api/auth/register`
 - **Body (JSON):**
-  
+```json
 {
   "name": "Professora Sheila",
   "email": "professora.sheila@teste.com",
@@ -32,6 +32,7 @@ Cria uma nova conta no sistema.
   "cpf": "000.111.222-33"
 
 }
+```
 
 🔑 Login (Autenticar)
 
@@ -43,11 +44,12 @@ Endpoint: /api/auth/login
 
 Body (JSON):
 
-
+```json
 {
   "email": "professora.sheila@teste.com",
   "password": "123456"
 }
+```
 
 Nota: Copie o código do campo token na resposta para usar nas rotas abaixo.
 
@@ -65,7 +67,7 @@ Header: x-auth-token
 
 Body (JSON):
 
-
+```json
 {
   "name": "Rex",
   "breed": "Pastor Alemão",
@@ -74,6 +76,7 @@ Body (JSON):
   "type": "Cachorro",
   "photoUrl": "[https://cdn-icons-png.flaticon.com/512/194/194630.png](https://cdn-icons-png.flaticon.com/512/194/194630.png)"
 }
+```
 Dica: Salve o _id retornado para usar nas rotas de edição e GPS.
 
 ### 📋 Listar Pets
@@ -97,11 +100,12 @@ Endpoint: /api/pets/{id}/location
 Header: x-auth-token
 
 Body (JSON):
-
+```json
 {
   "lat": -7.237136,
   "lng": -35.884383
 }
+```
 (Coordenadas de exemplo: Unifacisa - Campina Grande)
 
 ### ✏️ Editar Dados do Pet
@@ -115,11 +119,12 @@ Endpoint: /api/pets/{id}
 Header: x-auth-token
 
 Body (JSON):
-
+```json
 {
   "weight": 25.0,
   "age": 5
 }
+```
 
 ### 🗑️ Remover Pet
 
