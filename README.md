@@ -35,6 +35,8 @@ Para executar o sistema completo, você precisará de **dois terminais** abertos
 
 ---
 
+# Faça o git clone do repositório!: git clone 
+
 ### 1️⃣ Configurando o Backend (Servidor)
 
 ## Abra o terminal e entre na pasta do servidor:
