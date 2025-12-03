@@ -47,7 +47,7 @@ cd patrulha-animal-backend
 
 npm install
 
-Configuração de Segurança (.env): Crie um arquivo .env dentro da pasta patrulha-animal-backend:
+### Configuração de Segurança (.env): Crie um arquivo .env dentro da pasta patrulha-animal-backend:
 
 OBS: CÓDIGO .env ENVIADO NO COMENTÁRIO DA ENTREGA!!
 
