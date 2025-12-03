@@ -24,14 +24,14 @@ Cria uma nova conta no sistema.
 - **Método:** `POST`
 - **Endpoint:** `/api/auth/register`
 - **Body (JSON):**
-'
+'''
 {
   "name": "Professora Sheila",
   "email": "professora.sheila@teste.com",
   "password": "123456",
   "cpf": "000.111.222-33"
 
-}'
+}'''
 🔑 Login (Autenticar)
 
 Verifica credenciais e retorna o Token de Acesso.
