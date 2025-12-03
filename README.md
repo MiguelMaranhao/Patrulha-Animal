@@ -87,7 +87,8 @@ npm run dev
 
 Acesse no navegador: http://localhost:5173
 
-📱 Funcionalidades Principais
+## 📱 Funcionalidades Principais
+
 Rastreamento GPS: Mapa interativo focado na região local (Campina Grande - PB).
 
 Gestão de Pets: CRUD completo (Adicionar, Editar, Remover e Listar Pets).
