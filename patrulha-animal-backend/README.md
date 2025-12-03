@@ -32,6 +32,7 @@ Cria uma nova conta no sistema.
   "cpf": "000.111.222-33"
 }
 🔑 Login (Autenticar)
+
 Verifica credenciais e retorna o Token de Acesso.
 
 Método: POST
@@ -47,8 +48,10 @@ Body (JSON):
 }
 Nota: Copie o código do campo token na resposta para usar nas rotas abaixo.
 
-2. Gestão de Pets
+### 2. Gestão de Pets
+
 🐾 Cadastrar um Pet
+
 Vincula um novo animal ao usuário logado.
 
 Método: POST
@@ -59,7 +62,6 @@ Header: x-auth-token
 
 Body (JSON):
 
-JSON
 
 {
   "name": "Rex",
@@ -71,7 +73,8 @@ JSON
 }
 Dica: Salve o _id retornado para usar nas rotas de edição e GPS.
 
-📋 Listar Pets
+### 📋 Listar Pets
+
 Retorna todos os animais cadastrados pelo usuário.
 
 Método: GET
@@ -80,7 +83,8 @@ Endpoint: /api/pets
 
 Header: x-auth-token
 
-📍 Simular GPS (Atualizar Localização)
+### 📍 Simular GPS (Atualizar Localização)
+
 Envia coordenadas simulando o hardware da coleira.
 
 Método: PUT
@@ -91,15 +95,14 @@ Header: x-auth-token
 
 Body (JSON):
 
-JSON
-
 {
   "lat": -7.237136,
   "lng": -35.884383
 }
 (Coordenadas de exemplo: Unifacisa - Campina Grande)
 
-✏️ Editar Dados do Pet
+### ✏️ Editar Dados do Pet
+
 Atualiza informações cadastrais do animal.
 
 Método: PUT
@@ -110,13 +113,13 @@ Header: x-auth-token
 
 Body (JSON):
 
-JSON
-
 {
   "weight": 25.0,
   "age": 5
 }
-🗑️ Remover Pet
+
+### 🗑️ Remover Pet
+
 Exclui o animal do banco de dados.
 
 Método: DELETE
